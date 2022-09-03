@@ -44,7 +44,7 @@ defmodule PentoWeb.WrongLive do
       assign(
         socket,
         number_to_guess: :rand.uniform(10),
-        score: 0,
+        score: 1,
         win?: false,
         message: "Guess a game"
       )
